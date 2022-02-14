@@ -1,4 +1,9 @@
-# ccid_driver_winxp_win2k
-Windows CCID driver 
+# CCID Driver for windows and macOS
 
-The driver using for Windows xp and windows 2000, since they already stop maintain by Microsoft, but still has some customer using them, so just in case. 
+Most of windows already installed CCID driver by default, some GHOST system doesn't have it, just put it here.
+Windows XP:
+Windows 7: https://github.com/FeitianSmartcardReader/Win7_CCID_Driver/archive/refs/heads/master.zip
+
+macOS(Apple M1): https://github.com/FeitianSmartcardReader/CCID_Driver/raw/master/Feitian_CCID_Driver_macOS.dmg
+
+Linux: install from source code or through apt-get install libccid
